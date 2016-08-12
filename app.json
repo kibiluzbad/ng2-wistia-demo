@@ -1,0 +1,6 @@
+{
+  "name": "ng2-wistia-demo",
+  "description": "ng2-wistia-demo",
+  "image": "heroku/nodejs",
+  "addons": []
+}

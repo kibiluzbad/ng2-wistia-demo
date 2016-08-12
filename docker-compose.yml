@@ -1,0 +1,13 @@
+version: '2'
+services:
+  web:
+    build: .
+    command: 'bash -c "tsc && npm run serve"'
+    working_dir: /app/user
+    volumes:
+        - ./:/app/user
+    environment:
+      PORT: 3001
+    ports:
+      - "3001:3001"
+  
